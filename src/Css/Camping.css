@@ -1,0 +1,61 @@
+/* Camping.css */
+.camping-container {
+    position: relative;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .camping-images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* overflow-x: scroll; */
+    /* scroll-snap-type: x mandatory; */
+  }
+  
+  .camping-image {
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    scroll-snap-align: start;
+  }
+  
+  .camping-image img {
+    max-width: 100%; /* Ensure image doesn't exceed container width */
+    max-height: 250px; /* Set a max-height to make them medium size */
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 5px; /* Add border radius to the images */
+  
+  }
+  
+  .camping-image:hover img {
+    transform: scale(1.1);
+  }
+  
+  Scroll indicator dots
+  .camping-indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 5px;
+  }
+   */
+  .camping-indicator {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ddd;
+    cursor: pointer;
+  }
+  
+  .camping-indicator.active {
+    background-color: #555;
+  }
+  

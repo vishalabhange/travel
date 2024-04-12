@@ -1,0 +1,69 @@
+.form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-container h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .form-container label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .form-container input,
+  .form-container select,
+  .form-container .react-datepicker-wrapper,
+  .form-container .react-time-picker {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  .form-container input[type="date"],
+  .form-container input[type="time"],
+  .form-container .react-datepicker__input-container input {
+    appearance: none;
+    -webkit-appearance: none;
+  }
+  
+  .form-container input[type="date"]::-webkit-calendar-picker-indicator,
+  .form-container input[type="time"]::-webkit-calendar-picker-indicator {
+    display: none;
+  }
+  
+  .form-container button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .form-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .form-container {
+      max-width: 90%;
+    }
+  }
+  

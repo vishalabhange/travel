@@ -1,0 +1,20 @@
+/* GifContainer.css */
+.gif-container {
+    position:fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 150px; /* Increase the width */
+    height: 150px; /* Increase the height */
+    border-radius: 50%;
+    overflow:hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background: none; /* Remove the background */
+  }
+  
+  .gif-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background: none; /* Remove the background */
+  }
+  

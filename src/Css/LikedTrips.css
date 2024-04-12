@@ -1,0 +1,41 @@
+/* Add your styling here */
+.liked-trips {
+    margin: 20px;
+  }
+  
+  .trip-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .trip-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .Likedtrip-name {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .Likedtrip-detail {
+    margin: 5px 0;
+  }
+  
+  .loading {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .error {
+    font-weight: bold;
+    color: #dc3545;
+  }
+  
+  .no-trips {
+    font-style: italic;
+    color: #868e96;
+  }
+  

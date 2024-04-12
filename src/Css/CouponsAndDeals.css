@@ -1,0 +1,84 @@
+/* Coupons and Deals Page Styles */
+
+.coupons-and-deals-page {
+    display: flex;
+    margin: 20px;
+  }
+  
+  .coupons-and-deals-content {
+    flex: 1;
+  }
+  
+  .coupons-and-deals-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .coupon-deal-card {
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    box-sizing: border-box;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .coupon-deal-card h3 {
+    color: #3498db;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .coupon-deal-card p {
+    color: #555;
+  }
+  
+  .coupon-deal-card button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .coupon-deal-card button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Sidebar Styles */
+  
+  .sidebar {
+    width: 300px;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  .sidebar h2 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar .coupon-deal-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar .coupon-deal-list-item {
+    margin-bottom: 15px;
+  }
+  
+  .sidebar .coupon-deal-list-item h3 {
+    color: #3498db;
+    font-size: 1.2em;
+  }
+  
+  .sidebar .coupon-deal-list-item p {
+    color: #555;
+    margin-top: 5px;
+  }
+  

@@ -1,0 +1,31 @@
+/* BookingForm.css */
+.booking-form-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.booking-form-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.close-btn {
+  cursor: pointer;
+  font-size: 20px;
+  color: #aaa;
+}
+
+.close-btn:hover {
+  color: #000;
+}
+
+.booking-form-scroll-container {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+/* Add any other styling for form fields as needed */
